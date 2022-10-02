@@ -1,0 +1,20 @@
+{
+  "name": "test-cyclic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node claim.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebushi113/test-cyclic.git"
+  },
+  "author": "kuro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebushi113/test-cyclic/issues"
+  },
+  "homepage": "https://github.com/sebushi113/test-cyclic#readme"
+}
