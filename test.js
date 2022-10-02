@@ -13,12 +13,12 @@ async function second() {
 }
 
 async function run() {
-  while (true) {
-    // console.log("zeroth");
-    await first();
-    await sleep(5000);
-    await second();
-    await sleep(5000);
-  }
+  //   while (true) {
+  // console.log("zeroth");
+  await first();
+  await sleep(5000);
+  await second();
+  await sleep(5000);
+  //   }
 }
 run();
