@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "test-cyclic",
   "version": "1.0.0",
   "description": "",
@@ -19,6 +18,9 @@
   },
   "homepage": "https://github.com/sebushi113/test-cyclic#readme",
   "dependencies": {
-    "moment": "^2.29.4"
+    "eosjs": "^22.1.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.2"
   }
 }
