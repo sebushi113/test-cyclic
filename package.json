@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "test-cyclic",
   "version": "1.0.0",
   "description": "",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sebushi113/test-cyclic/issues"
   },
-  "homepage": "https://github.com/sebushi113/test-cyclic#readme"
+  "homepage": "https://github.com/sebushi113/test-cyclic#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }

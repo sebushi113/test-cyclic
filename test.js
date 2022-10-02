@@ -1,3 +1,8 @@
+import moment from "moment";
+
+const date = "YYYY-MM-DD HH:mm:ss";
+console.log(`  🦁  | ${moment(new Date()).format(date)}`);
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
