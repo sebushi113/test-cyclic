@@ -5,6 +5,7 @@ const fetch = require("node-fetch"); //node only
 const { TextDecoder, TextEncoder } = require("util"); //node only
 require("dotenv").config();
 
+// testing submodule command git submodule update --init --recursive
 // const privateKeys = [privateKey1];
 
 const privateKeys = [process.env.cs1c];
