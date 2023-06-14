@@ -1,6 +1,6 @@
 // import moment from "moment";
 const { Api, JsonRpc } = require("eosjs");
-const { JsSignatureProvider } = require("eosjs/dist/eosjs-jssig"); // development only
+const { JsSignatureProvider } = require("eosjs/dist/eosjs-jssig.js"); // development only
 const fetch = require("node-fetch"); //node only
 const { TextDecoder, TextEncoder } = require("util"); //node only
 require("dotenv").config();
